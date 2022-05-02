@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
+    <link rel="manifest" href="manifest.json" />
+    <script type="module" src="script.js"></script>
+    <script
+      type="text/javascript"
+      src="./node_modules/qrcode-generator/qrcode.js"
+    ></script>
+
+    <!-- script type="text/javascript" src="sw.js"></script> -->
+    <style>
+      input:focus {
+        outline: none;
+      }
+    </style>
+    <script>
+      //navigator.serviceWorker.register("sw.js");
+    </script>
+  </head>
+  <body>
+    <h1>Eduard's demo</h1>
+    <div id="canvas"></div>
+
+    <input
+      id="inputTask"
+      type="text"
+      placeholder="Add a new task..."
+      onkeyup="checkKeyPressed(event)"
+    />
+    <button onclick="addNewTask()">Add</button><br />
+    <div id="taskList"></div>
+    <br /><br />
+    <h1>The Weather app</h1>
+    <input id="city" type="text" placeholder="Enter a city name.." />
+    <button onclick="getMeTheWeather()">Find</button><br />
+    <div id="weatherData"></div>
+  </body>
+</html>

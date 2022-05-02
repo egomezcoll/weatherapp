@@ -1,0 +1,45 @@
+{
+    "background_color": "#ffffff",
+    "description": "A simple website, built with Glitch. Remix it to get your own.",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "weatherapp",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "weatherapp",
+    "start_url": "/",
+    "theme_color": "#ffffff",
+    "categories": [],
+    "screenshots": [],
+    "icons": [
+        {
+          "src": "https://glitch.com/favicon.ico"
+        },
+        {
+          "src": "https://cdn.glitch.global/fbf1cd9c-8c58-45da-ae47-f838abefcd22/thumbnails%2Funnamed.png?1650465647663",
+          "type": "image/png",
+          "sizes": "1200x630"
+        },
+        
+          {
+              "src": "https://cdn.glitch.global/fbf1cd9c-8c58-45da-ae47-f838abefcd22/unnamed_72.png?1650466660339",
+              "type": "image/png",
+              "sizes": "72x72"
+          },
+          {
+              "src": "https://cdn.glitch.global/fbf1cd9c-8c58-45da-ae47-f838abefcd22/unnamed_114.png?1650466656109",
+              "type": "image/png",
+              "sizes": "114x114"
+          },
+          {
+              "src": "https://cdn.glitch.global/fbf1cd9c-8c58-45da-ae47-f838abefcd22/unnamed_144.png?1650466649208",
+              "type": "image/png",
+              "sizes": "144x144"
+          },
+          {
+              "src": "https://cdn.glitch.global/fbf1cd9c-8c58-45da-ae47-f838abefcd22/thumbnails%2Funnamed.png?1650465647663",
+              "sizes": "512x512"
+          }
+      ],
+    "shortcuts": []
+  }
